@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family:  'Noto Sans', sans-serif;
+}
+section{
+    background-image: url(Netflix.jpg);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    background-size: 100% 100%;
+    background-attachment: flex;
+    height: 760px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 20px 50px;
+    align-content: center;
+}
+.photo{
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+
+}
+.top form{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+
+}
+select{
+    background: transparent;
+    color: #fff;
+    height: 1cm;
+    width: 2.8cm;
+    padding: 5px 10px; 
+    margin-right: 25px;
+    cursor: pointer;
+    font-weight: lighter;
+    font-size: 15px;
+    
+    
+
+}
+.iden{
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 3px;
+    height: 1cm;
+    width: 2.8cm;
+    font-weight: lighter;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.search{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    padding: 100px;
+    
+
+}
+.search h1{
+    font-size: 65px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+h4{
+    font-size: 25px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+
+}
+h5{
+    font-size: 20px;
+    font-weight: lighter;
+    padding-bottom: 15px;
+}
+.search form{
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    justify-content: center;
+    
+}
+.search input{
+    width:14cm ;
+    height:1.9cm ;
+    font-size: 16px;
+    padding-left: 10px;
+    
+
+}
+.btn-movie{
+    background-color: #e50914;
+    color: #fff;
+    height: 1.9cm;
+    width: 7cm;
+    font-weight: 50px;
+    font-size: 16px;
+}
